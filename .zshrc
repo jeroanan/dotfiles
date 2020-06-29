@@ -18,3 +18,5 @@ RPROMPT='[%D{%L:%M:%S}] '$RPROMPT
 EDITOR=/usr/bin/vim
 ANDROID_HOME=$HOME/Android/Sdk
 ANDROID_SDK_ROOT=$HOME/Android/Sdk
+export _JAVA_AWT_WM_NONREPARENTING=1
+alias android-studio /opt/android-studio/bin/studio.sh

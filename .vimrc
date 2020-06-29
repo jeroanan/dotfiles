@@ -18,7 +18,7 @@ syntax on
 set hidden
 set backupcopy=yes
 set clipboard=unnamed
-colorscheme peachpuff
+colorscheme elflord
 command W w
 
 filetype plugin indent on
