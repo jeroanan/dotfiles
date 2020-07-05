@@ -15,7 +15,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 RPROMPT='[%D{%L:%M:%S}] '$RPROMPT
-EDITOR=/usr/bin/vim
+export EDITOR=/usr/bin/vim
 ANDROID_HOME=$HOME/Android/Sdk
 ANDROID_SDK_ROOT=$HOME/Android/Sdk
 export _JAVA_AWT_WM_NONREPARENTING=1
